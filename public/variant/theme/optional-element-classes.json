@@ -1,0 +1,35 @@
+{ 
+	"options":[
+		{	
+			"type":"toggle",
+			"selector":"section",
+			"menu":"utility",
+			"submenu":"Section Controls",
+			"class":"hidden-xs",
+			"text":"Hide On Mobile",
+			"initial":"auto",
+			"icon":"phone"
+		},
+		{	
+			"type":"toggle",
+			"disposableSelector":".toggle-bg-mrv",
+			"menu":"utility",
+			"submenu":"Section Controls",
+			"class":"bg-secondary",
+			"text":"Alternate BG",
+			"initial":"auto",
+			"icon":"droplet"
+		},
+		{	
+			"type":"toggle",
+			"selector":".header:not(.header-4),.details-2,.details-4,.registry-3",
+			"menu":"utility",
+			"submenu":"Section Controls",
+			"class":"parallax",
+			"text":"Parallax",
+			"initial":"auto",
+			"icon":"expand-up",
+			"refresh":"true"
+		}
+	]
+}

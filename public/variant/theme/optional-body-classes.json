@@ -1,0 +1,18 @@
+{ 
+	"options":[
+		{	
+			"type":"toggle",
+			"class":"boxed-layout",
+			"text":"Boxed Layout",
+			"initial":"off",
+			"icon":"resize-width"
+		},
+		{	
+			"type":"toggle",
+			"class":"body-bg",
+			"text":"Coloured Background",
+			"initial":"off",
+			"icon":"resize-width"
+		}
+	]
+}
